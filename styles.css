@@ -86,7 +86,11 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */ /* Elimina el pie de página fijo */
+    /* bottom: 0; */
     width: 100%;
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
 }
+
+   
+

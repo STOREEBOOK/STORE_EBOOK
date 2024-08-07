@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'AlanSerif', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black; /* Fondo negro */
-    color: white; /* Texto blanco */
+    background-color: black;
+    color: white;
 }
 
 header {
     padding: 1em 0;
     text-align: center;
+    background-color: #222; /* Negro estilo mármol */
 }
 
 header nav ul {
@@ -41,10 +42,10 @@ section {
 .book {
     margin: 1em;
     padding: 1em;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     width: 200px;
     text-align: center;
-    background-color: #333; /* Fondo gris oscuro para los libros */
+    background-color: #333;
 }
 
 .book img {
@@ -53,15 +54,15 @@ section {
 }
 
 button, input[type="image"] {
-    background-color: yellow; /* Botones amarillos */
-    color: black; /* Texto negro en botones */
+    background-color: yellow;
+    color: black;
     padding: 0.5em 1em;
     border: none;
     cursor: pointer;
 }
 
 button:hover, input[type="image"]:hover {
-    background-color: #ffd700; /* Cambia a un amarillo más claro al pasar el ratón */
+    background-color: #ffd700;
 }
 
 form {
@@ -82,15 +83,10 @@ form input, form textarea {
 }
 
 footer {
-    background-color: #333; /* Fondo gris oscuro para el pie de página */
+    background-color: #222;
     color: white;
     text-align: center;
     padding: 1em 0;
-    /* position: fixed; */ /* Elimina el pie de página fijo */
-    /* bottom: 0; */
-    width: 100%;
-    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    font-size: 0.9em;
 }
-
-   
 

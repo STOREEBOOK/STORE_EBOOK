@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
 }
 
 header {
-    background-color: #333;
-    color: black;
     padding: 1em 0;
     text-align: center;
 }
@@ -44,6 +44,7 @@ section {
     border: 1px solid #ddd;
     width: 200px;
     text-align: center;
+    background-color: #333; /* Fondo gris oscuro para los libros */
 }
 
 .book img {
@@ -51,16 +52,16 @@ section {
     height: auto;
 }
 
-button {
-    background-color: #333;
-    color: white;
+button, input[type="image"] {
+    background-color: yellow; /* Botones amarillos */
+    color: black; /* Texto negro en botones */
     padding: 0.5em 1em;
     border: none;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #555;
+button:hover, input[type="image"]:hover {
+    background-color: #ffd700; /* Cambia a un amarillo más claro al pasar el ratón */
 }
 
 form {
@@ -81,8 +82,8 @@ form input, form textarea {
 }
 
 footer {
-    background-color: #333;
-    color: black;
+    background-color: #333; /* Fondo gris oscuro para el pie de página */
+    color: white;
     text-align: center;
     padding: 1em 0;
     position: fixed;

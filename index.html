@@ -8,74 +8,51 @@
 </head>
 <body>
     <header>
-        <h1 style="background-color: yellow; color: black;">Bienvenidos a eBook Store</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#catalog">Catálogo</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#comments">Comentarios</a></li>
-            </ul>
-        </nav>
+        <img src="banner.jpg" alt="Banner" id="banner">
+        <h1>Bienvenido a la Tienda eBook Store</h1>
     </header>
 
-    <section id="home">
-        <h2 style="color: yellow;">Tu tienda de eBooks favorita</h2>
-        <p>Descubre una amplia variedad de eBooks de diferentes tematicas.</p>
-    </section>
+    <main>
+        <section id="ebooks">
+            <div class="ebook free">
+                <h2>eBook Gratis</h2>
+                <p>Descripción breve del eBook gratuito.</p>
+                <button class="btn-free">Descargar Gratis</button>
+            </div>
+            <div class="ebook paid">
+                <h2>eBook de Pago</h2>
+                <p>Descripción breve del eBook de pago.</p>
+                <button class="btn-paid">Comprar</button>
+            </div>
+        </section>
 
-    <section id="catalog">
-        <h2 style="color: yellow;">Catálogo</h2>
-        <div class="book">
-            <img src="libro 1.jpg" alt="eBook 1">
-            <h3>Guía efectiva para reels</h3>
-            <p>Descubre estrategias para viralizar y monetizar tu cuenta de Instagram.</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="ID_DEL_BOTON_PAYPAL_EBOOK_1">
-                <input type="image" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_ms_ae_UK.png" border="0" name="submit" alt="Comprar con PayPal">
-                <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+        <section id="about-us">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda creada para todo tipo de personas...</p>
+        </section>
+
+        <section id="comments">
+            <h2>Comentarios</h2>
+            <div id="comment-section">
+                <!-- Los comentarios de los usuarios aparecerán aquí -->
+            </div>
+            <form id="comment-form">
+                <textarea name="comment" placeholder="Escribe tu comentario aquí"></textarea>
+                <button type="submit">Enviar Comentario</button>
             </form>
-        </div>
-        <div class="book">
-            <img src="libro 2.jpg" alt="eBook 2">
-            <h3>Ideas de encabezados para tus reels</h3>
-            <p>Obtén ideas para tus futuros reels.</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="ID_DEL_BOTON_PAYPAL_EBOOK_2">
-                <input type="image" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_ms_ae_UK.png" border="0" name="submit" alt="Comprar con PayPal">
-                <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
-            </form>
-        </div>
-    </section>
+        </section>
 
-    <section id="about">
-        <h2 style="color: yellow;">Sobre Nosotros</h2>
-        <p>Somos una tienda creada para todo tipo de personas. Nos gusta ayudar a los demás y facilitar el acceso a conocimientos.</p>
-        <p>Decidimos crear esta tienda para cubrir la necesidad de nutrir y potenciar a todas aquellas personas interesadas en darle un camino a su vida o hacer un regalo a un amigo.</p>
-        <p>Esperamos que se sienta como en su casa y disfrute de nuestra creación. Trabajamos para usted y por usted.</p>
-    </section>
-
-    <section id="contact">
-        <h2 style="color: yellow;">Contacto</h2>
-        <p>Instagram: <a href="https://instagram.com/casanova_marketing" style="color: yellow;">@casanova_marketing</a></p>
-        <p>Facebook: <a href="https://facebook.com/casanova_hernandez" style="color: yellow;">Casanova Hernandez</a></p>
-        <p>Email: <a href="mailto:vidamia2701@gmail.com" style="color: yellow;">vidamia2701@gmail.com</a>, <a href="mailto:elpochi9809@gmail.com" style="color: yellow;">elpochi9809@gmail.com</a></p>
-    </section>
-
-    <section id="comments">
-        <h2 style="color: yellow;">Comentarios</h2>
-        <form action="#" method="post">
-            <label for="comment">Tu comentario:</label>
-            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+        <section id="contact">
+            <h2>Contáctanos</h2>
+            <p>Instagram: <a href="https://instagram.com/casanova_marketing">@casanova_marketing</a></p>
+            <p>Facebook: <a href="https://facebook.com/CASANOVA-HERNANDEZ">CASANOVA HERNANDEZ</a></p>
+            <p>Email: <a href="mailto:vidamia2701@gmail.com">vidamia2701@gmail.com</a>, <a href="mailto:elpochi9809@gmail.com">elpochi9809@gmail.com</a></p>
+        </section>
+    </main>
 
     <footer>
-        <p style="color: yellow;">&copy; 2024 eBook Store. Todos los derechos reservados.</p>
+        <p>&copy; 2024 eBook Store. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+

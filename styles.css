@@ -24,6 +24,10 @@ h1, h2 {
     color: #444;
 }
 
+h1 {
+    color: yellow; /* Cambia el color del texto de bienvenida a amarillo */
+}
+
 #ebooks {
     display: flex;
     justify-content: space-around;
@@ -37,25 +41,13 @@ h1, h2 {
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.btn-free, .btn-paid {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.btn-free {
-    background-color: yellow;
-    color: black;
-}
-
-.btn-paid {
-    background-color: yellow;
-    color: black;
+.ebook img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 #about-us, #comments, #contact {
@@ -84,3 +76,4 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+

@@ -50,6 +50,23 @@ h1 {
     margin-bottom: 10px;
 }
 
+.ebook button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-free {
+    background-color: #28a745; /* Verde para el botón gratis */
+}
+
+.btn-paid {
+    background-color: #007bff; /* Azul para el botón de pago */
+}
+
 #about-us, #comments, #contact {
     margin: 20px 10%;
 }
@@ -76,4 +93,5 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
 
